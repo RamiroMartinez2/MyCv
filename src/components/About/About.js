@@ -34,12 +34,6 @@ const About = () => {
             <br></br>
             <span>ramiro.martinez91@hotmail.com</span>
           </p>
-          <div class="download">
-            <Link className="fa-download">
-              <FaDownload />
-              <span className="style-download">Download Resume</span>
-            </Link>
-          </div>
         </div>
       </div>
     </>
