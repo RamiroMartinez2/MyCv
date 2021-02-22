@@ -1,0 +1,112 @@
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  @media (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .nav-skills {
+    width: 100%;
+    position: relative;
+  }
+  .h1-skills {
+    margin-bottom: 6rem;
+    margin-top: 8rem;
+    @media (min-width: 1200px) {
+      grid-column: 1/1;
+      margin-left: 10%;
+      margin-bottom: 74rem;
+      margin-top: 10rem;
+    }
+    .skills-headerline {
+      border-bottom: 3px solid #11abb0;
+      padding-bottom: 6px;
+      letter-spacing: 3px;
+    }
+  }
+
+  .bars li {
+    position: relative;
+    margin-bottom: 60px;
+    background: #ccc;
+    height: 42px;
+    border-radius: 3px;
+    list-style: none;
+    width: 26rem;
+    margin-right: 9%;
+    margin-top: 1rem;
+    @media (min-width: 1200px) {
+      margin-top: 3rem;
+    }
+    .git {
+      width: 85%;
+      animation: git 2s ease;
+    }
+    .html {
+      width: 90%;
+      animation: html 2s ease;
+    }
+    .css {
+      width: 75%;
+      animation: css 2s ease;
+    }
+    .js {
+      width: 75%;
+      animation: js 2s ease;
+    }
+    .react {
+      width: 50%;
+      animation: react 2s ease;
+    }
+    .redux {
+      width: 30%;
+      animation: redux 2s ease;
+    }
+    .node {
+      width: 70%;
+      animation: redux 2s ease;
+    }
+    .express {
+      width: 70%;
+      animation: redux 2s ease;
+    }
+    .postman {
+      width: 70%;
+      animation: redux 2s ease;
+    }
+    .mongo {
+      width: 60%;
+      animation: redux 2s ease;
+    }
+    .mysql {
+      width: 40%;
+      animation: redux 2s ease;
+    }
+
+    .bar-expand {
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin: 0;
+      padding-right: 24px;
+      background: #313131;
+      display: inline-block;
+      height: 42px;
+      line-height: 42px;
+      border-radius: 3px 0 0 3px;
+    }
+    em {
+      font: 15px "opensans-bold", sans-serif;
+      color: #313131;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: normal;
+      position: relative;
+      top: -36px;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.education-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: white;
+  @media (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .h1-edu{
+    margin-top: 4rem;
+     .education-headerline {
+    border-bottom: 3px solid #11abb0;
+    padding-bottom: 6px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 4rem;
+    @media (min-width: 1200px) {
+      margin-left: 10%;
+      padding-bottom: 0;
+      letter-spacing: 0;
+    }
+  }
+  }
+ 
+  .university {
+    font: 25px/30px "opensans-bold", sans-serif;
+    color: #313131;
+    margin-top: 6rem;
+    @media (min-width: 1200px) {
+      grid-column: 2/4;
+      margin-top: 10rem;
+    }
+  }
+  .info {
+    font: 16px/24px "librebaskerville-italic", serif;
+    color: #6e7881;
+    @media (min-width: 1200px) {
+      grid-column: 2/3;
+    }
+
+    .date {
+      font: 15px/24px "opensans-regular", sans-serif;
+    }
+  }
+
+  .line {
+    color: #e8e8e8;
+  }
+  .ulist-exp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-self: flex-start;
+    font: 16px/24px "librebaskerville-italic", serif;
+    color: #6e7881;
+    list-style: square;
+    @media (min-width: 1200px) {
+      grid-column: 2/3;
+    }
+  }
+}

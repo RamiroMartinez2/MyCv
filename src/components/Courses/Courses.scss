@@ -1,0 +1,12 @@
+.ulist-education{
+    margin-right: 11rem;
+    list-style: square;
+    font-family: "opensans-regular", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #838C95;
+    @media (min-width: 1200px) {
+        grid-column: 2/3;
+       }
+}

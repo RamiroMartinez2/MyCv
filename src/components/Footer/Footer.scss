@@ -1,0 +1,30 @@
+.footer{
+    font-size: 14px;
+    background: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .ul-footer{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 31px;
+        list-style: none;
+        color: white;
+        .footer-list{
+            color: white;
+            @media (min-width: 1200px) {
+                font-size: 50px;
+              }
+
+        }
+    }
+    .copyright{
+        color: white;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 3rem;
+        margin-top: -20px;
+    }
+    
+}
