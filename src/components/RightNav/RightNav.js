@@ -63,12 +63,6 @@ const RightNav = ({ open }) => {
           Porfolios
         </NavLink>
       </li>
-      <li className="list">
-        <NavLink className="list" to="/contactForm">
-          Contact
-        </NavLink>
-      </li>
-      
     </Ul>
   );
 };

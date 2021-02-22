@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
+import { ImWhatsapp } from "react-icons/im";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -21,6 +22,15 @@ const Footer = () => {
           <li >
             <a  className="footer-list" href="https://github.com/RamiroMartinez2" target="blank"> <AiFillGithub /></a>
            
+          </li>
+          <li>
+            <a
+             className="footer-list"
+              target="blank"
+              href="https://api.whatsapp.com/send?phone=(+54)93413263481&text=Hola,%20¿como%20estás?"
+            >
+              <ImWhatsapp />
+            </a>
           </li>
       </ul>
       <ul class="copyright">

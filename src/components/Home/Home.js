@@ -21,7 +21,7 @@ const Home = () => {
       <Skills />
       <Portfolios />
       <Experiences />
-      <ContactForm/>
+      {/* <ContactForm/> */}
     </section>
   );
 };
