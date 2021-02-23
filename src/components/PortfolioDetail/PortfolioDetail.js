@@ -1,10 +1,16 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import { Link, useParams } from "react-router-dom";
 import caldarImg from "../../images/caldarImg.PNG";
 import NavBar from "../NavBar/NavBar";
 import "./PortfolioDetail.scss";
 
-const PortfolioDetail = ({getP1}) => {
+const PortfolioDetail = () => {
+
+  
+
+  const {id} =useParams()
+  console.log(id);
+
 
   return (
     <div>
