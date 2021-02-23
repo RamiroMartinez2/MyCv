@@ -1,34 +1,35 @@
-import React,{useEffect,useState} from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import caldarImg from "../../images/caldarImg.PNG";
 import NavBar from "../NavBar/NavBar";
 import "./PortfolioDetail.scss";
+import data from "../../data/data";
+
 
 const PortfolioDetail = () => {
-
-  
-
-  const {id} =useParams()
-  console.log(id);
-
+  const { id } = useParams();
+  const proyects = data?.proyects;
+  const currentProyect = proyects[id-1];
+  console.log(currentProyect);
+  const { name, skills, image, imgAlt, url} = currentProyect;
 
   return (
     <div>
       <NavBar />
-      <div className="portfolio-container">
-        <h3>React Caldar proyect.</h3>
-        <div className="item-wrap">
-            {" "}
-            <img src={caldarImg} className="img-caldar" alt="img" />
+      <div className="portfolioD-container">
+        <h3>{name}.</h3>
+        <div>
+          {" "}
+          <img src={image} className="img-caldar" alt={imgAlt} />
         </div>
         <div className="tec-container">
-          <div className="styles">React JS</div>
-          <div className="styles">Redux</div>
-          <div className="styles">CSS</div>
+          <div className="styles">{skills[0]}</div>
+          <div className="styles">{skills[1]}</div>
+          <div className="styles">{skills[2]}</div>
           <div className="url">
             <a
               className="url"
-              href="https://react-caldar.vercel.app/"
+              href={url}
               target="blank"
             >
               URL

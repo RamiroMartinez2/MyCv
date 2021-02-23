@@ -23,15 +23,6 @@ const Footer = () => {
             <a  className="footer-list" href="https://github.com/RamiroMartinez2" target="blank"> <AiFillGithub /></a>
            
           </li>
-          <li>
-            <a
-             className="footer-list"
-              target="blank"
-              href="https://api.whatsapp.com/send?phone=(+54)93413263481&text=Hola,%20¿como%20estás?"
-            >
-              <ImWhatsapp />
-            </a>
-          </li>
       </ul>
       <ul class="copyright">
         <li>Copyright 2021</li>

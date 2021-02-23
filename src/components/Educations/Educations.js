@@ -8,7 +8,7 @@ const Educations = () => {
     <>
     <NavBar/>
       <div class="education-container">
-        <h1 className="h1-edu">
+        <h1 id="education" className="h1-edu">
           <span className="education-headerline">Education</span>
         </h1>
         <h3 className="university">Universidad Abierta Interamericana</h3>

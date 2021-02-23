@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Skills from "./components/Skills/Skills";
 import Home from "./components/Home/Home";
 import Educations from "./components/Educations/Educations";
-import Portfolios from "./components/Portfolios/Portfolios";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Experiences from "./components/Experiences/Experiences";
 import PortfolioDetail from "./components/PortfolioDetail/PortfolioDetail";
 import { ContactForm } from "./components/ContactForm/ContactForm";
@@ -15,12 +15,12 @@ function App() {
       <>
         <Route exact path="/" component={Home} />
         <Switch>
-          <Route path="/skills" component={Skills} />
-          <Route path="/educations" component={Educations} />
-          <Route path="/experiences" component={Experiences} />
-          <Route path="/portfolios" component={Portfolios} />
-          <Route path="/portfolioDetail/:id" component={PortfolioDetail} />
-          {/* <Route path="/contactForm" component={ContactForm} /> */}
+          <Route exact path="/skills" component={Skills} />
+          <Route exact path="/educations" component={Educations} />
+          <Route exact path="/experiences" component={Experiences} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/portfolio/:id" component={PortfolioDetail} />
+          <Route exact path="/contactForm" component={ContactForm} />
         </Switch>
         <Route exact path="/" component={Footer} />
       </>

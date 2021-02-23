@@ -1,3 +1,18 @@
+
+.portfolioD-container{
+  background: white;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  .img-caldar{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 .tec-container {
   display: flex;
   justify-content: space-between;
@@ -32,3 +47,7 @@
     border-radius: 14%;
     margin-top: 4rem;
   }
+
+}
+
+

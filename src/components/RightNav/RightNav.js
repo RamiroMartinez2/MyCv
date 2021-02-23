@@ -7,7 +7,6 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
   margin-right: 5%;
- 
 
   .list {
     padding: 18px 10px;
@@ -17,7 +16,7 @@ const Ul = styled.ul`
 
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: rgba(53,63,73,255);
+    background-color: rgba(53, 63, 73, 255);
     position: fixed;
     top: 0;
     right: 0;
@@ -26,8 +25,7 @@ const Ul = styled.ul`
     padding-top: 3.5rem;
     transition: all 0.3s ease;
     display: ${({ open }) => (open ? "flex" : "none")};
-    z-index:100;
-    
+    z-index: 100;
 
     .list {
       color: white;
@@ -39,29 +37,28 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open} className="u-list">
       <li className="list">
-        <Link className="list" to="/">
-          Home
-        </Link>
-      </li>
-      <li className="list">
-        <NavLink className="list" to="/skills">
+        <a className="list" href="#skills">
+          {" "}
           Skills
-        </NavLink>
+        </a>
       </li>
       <li className="list">
-        <NavLink className="list" to="/experiences">
+        <a className="list" href="#experiences">
+          {" "}
           Experiences
-        </NavLink>
+        </a>
       </li>
       <li className="list">
-        <NavLink className="list" to="/educations">
-          Educations
-        </NavLink>
+        <a className="list" href="#education">
+          {" "}
+          Education
+        </a>
       </li>
       <li className="list">
-        <NavLink className="list" to="/portfolios">
-          Porfolios
-        </NavLink>
+        <a className="list" href="#portfolio">
+          {" "}
+          Porfolio
+        </a>
       </li>
     </Ul>
   );

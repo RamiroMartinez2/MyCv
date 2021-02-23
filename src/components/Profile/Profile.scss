@@ -12,8 +12,8 @@
     
     .headline {
       font-size: 2rem;
-      margin-bottom: 8%;
       margin-top: 30%;
+      margin-bottom: 0;
       z-index: 300000;
       font: 40px/1.1em "opensans-bold", sans-serif;
       @media (min-width: 768px) {
@@ -27,6 +27,7 @@
     .text {
       margin-left: 5%;
       margin-right: 5%;
+      margin-bottom: 6rem;
       z-index: 20;
       color: white;
       position: relative;

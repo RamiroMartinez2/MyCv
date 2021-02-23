@@ -1,88 +1,74 @@
-import React from "react";
-import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import "./ContactForm.scss";
 
-export const ContactForm = () => {
+import React, { useState } from "react";
 
-  const click = () => {
-    alert("Dale Negra");
+const NUMERO_DE_TELEFONO = "5493412115203";
+
+export const ContactForm = () => {
+  const [userInfo, setUserInfo] = useState({});
+
+  const handleChange = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    setUserInfo({ ...userInfo, [name]: value });
   };
 
-  const form = (ev) => {
-    ev.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const formatedText = `
+    Nombre: ${(userInfo.name || "").replace(" ", "%20")}
+    %0A*Email*: ${(userInfo.email || "").replace(" ", "%20")}
+    %0A*Mensaje*: ${(userInfo.content || "").replace(" ", "%20")}
+    `;
+    window.open(`https://wa.me/${NUMERO_DE_TELEFONO}?text=${formatedText}`);
   };
 
   return (
-<>
-    <NavBar/>
-    <div className="containerForm">
-      
-      <h1 className="h1-form">Get In Touch.</h1>
+    <section id="contact" className="contact-form">
+      <div className="flex-container">
+        <h1 className="h1-form">GET IN TOUCH</h1>
+        <form className="form" onSubmit={handleSubmit}>
+          <label className="name">
+            Name <span class="required">*</span>
+          </label>
+          <input
+            required
+            name="name"
+            className="input"
+            type="text"
+            placeholder="Nombre"
+            value={userInfo.name}
+            onChange={(e) => handleChange(e)}
+          />
+          <label className="name">
+            Email <span class="required">*</span>
+          </label>
+          <input
+            required
+            name="email"
+            type="email"
+            className="input"
+            placeholder="Email"
+            value={userInfo.email}
+            onChange={(e) => handleChange(e)}
+          />
+          <label className="name" for="contactMessage">
+            Message <span class="required">*</span>
+          </label>
+          <textarea
+            required
+            type="text"
+            className="input"
+            name="content"
+            placeholder="Type here"
+            onChange={(e) => handleChange(e)}
+          />
 
-      <form
-        onSubmit={() => form()}
-        className="form"
-        id="contactForm"
-        name="contactForm"
-      >
-        <label className="name">
-          Name <span class="required">*</span>
-        </label>
-        <input
-          className="input"
-          type="text"
-          value=""
-          size="35"
-          id="contactName"
-          name="contactName"
-        />
-
-        <label className="name">
-          Email <span class="required">*</span>
-        </label>
-        <input
-          className="input"
-          type="text"
-          value=""
-          size="35"
-          id="contactEmail"
-          name="contactEmail"
-        />
-
-        <label className="name">Subject</label>
-        <input
-          className="input"
-          type="text"
-          value=""
-          size="35"
-          id="contactSubject"
-          name="contactSubject"
-        />
-
-        <label className="name" for="contactMessage">
-          Message <span class="required">*</span>
-        </label>
-        <textarea
-          className="input"
-          cols="50"
-          rows="15"
-          id="contactMessage"
-          name="contactMessage"
-        ></textarea>
-
-        <div className="button">
-          <button
-            onClick={() => click()}
-            className="submit-button"
-            type="submit"
-          >
-            Submit
-          </button>
-        </div>
-      </form>
-    </div>
-
-    </>
+          <button className="button" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
   );
 };

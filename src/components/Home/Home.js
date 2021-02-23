@@ -6,7 +6,7 @@ import Experiences from "../Experiences/Experiences";
 import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import PortfolioDetail from "../PortfolioDetail/PortfolioDetail";
-import Portfolios from "../Portfolios/Portfolios";
+import Portfolio from "../Portfolio/Portfolio";
 import Profile from "../Profile/Profile";
 import Skills from "../Skills/Skills";
 import "./Home.scss";
@@ -19,9 +19,9 @@ const Home = () => {
       <About />
       <Educations />
       <Skills />
-      <Portfolios/>
+      <Portfolio />
       <Experiences />
-      {/* <ContactForm/> */}
+      <ContactForm />
     </section>
   );
 };

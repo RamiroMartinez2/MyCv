@@ -36,15 +36,7 @@ const Profile = () => {
               <AiFillGithub />
             </a>
           </li>
-          <li className="social-list">
-            <a
-              className="social-list"
-              target="blank"
-              href="https://api.whatsapp.com/send?phone=(+54)93413263481&text=Hola,%20¿como%20estás?"
-            >
-              <ImWhatsapp />
-            </a>
-          </li>
+         
         </ul>
       </div>
     </>

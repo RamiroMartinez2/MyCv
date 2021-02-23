@@ -9,11 +9,10 @@ const NavBar = () => {
   return (
     <>
       <nav className="nav-bar">
-        <div>
+       
           <Link   className="logo"  to="/">
             CV
           </Link>
-        </div>
         <Burger/>
       </nav>
     </>
