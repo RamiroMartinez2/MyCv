@@ -60,6 +60,12 @@ const RightNav = ({ open }) => {
           Porfolio
         </a>
       </li>
+      <li className="list">
+        <a className="list" href="#contact">
+          {" "}
+         Contact
+        </a>
+      </li>
     </Ul>
   );
 };

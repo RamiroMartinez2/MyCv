@@ -6,12 +6,12 @@ import "./Skills.scss";
 const Skills = () => {
   return (
     <>
-      <div className="skills-container">
+      <div id="skills" className="skills-container">
         <div className="nav-skills">
           <NavBar />
         </div>
         <h1 className="h1-skills">
-          <span id="skills" className="skills-headerline">Skills</span>
+          <span  className="skills-headerline">Skills</span>
         </h1>
         <div class="bars">
           <ul class="skills">

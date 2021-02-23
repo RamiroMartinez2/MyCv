@@ -12,6 +12,7 @@ const Portfolio = () => {
 
   const PortfolioCard = ({ id, name, skills, url, image, imgAlt }) => {
     return (
+
       <div className="item-wrap">
         <Link to={`/portfolio/${id}`}>
           {" "}
@@ -23,9 +24,9 @@ const Portfolio = () => {
 
   return (
     <>
-      <NavBar />
-      <div className="portfolio-container">
-        <h1 className="h1-portfolio" id="portfolio">
+
+      <div id="portfolio" className="portfolio-container">
+        <h1 className="h1-portfolio" >
           <span className="portfolio-headerline">Portfolio</span>
         </h1>
         {proyects.map((item) => (

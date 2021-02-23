@@ -7,6 +7,7 @@ import data from "../../data/data";
 
 
 const PortfolioDetail = () => {
+
   const { id } = useParams();
   const proyects = data?.proyects;
   const currentProyect = proyects[id-1];
@@ -15,7 +16,7 @@ const PortfolioDetail = () => {
 
   return (
     <div>
-      <NavBar />
+      <NavBar/>
       <div className="portfolioD-container">
         <h3>{name}.</h3>
         <div>

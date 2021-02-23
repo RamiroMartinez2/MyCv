@@ -1,13 +1,11 @@
 import React from "react";
-import Footer from "../Footer/Footer";
-import NavBar from "../NavBar/NavBar";
+
 
 const Experiences = () => {
   return (
     <>
-      <NavBar />
-      <div class="education-container">
-        <h1 id="experiences" className="h1-edu">
+      <div id="experiences" class="education-container">
+        <h1 className="h1-edu">
           <span className="education-headerline">Work</span>
         </h1>
         <h3 className="university">Edilizia SA Company</h3>

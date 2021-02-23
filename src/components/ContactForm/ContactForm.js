@@ -1,9 +1,8 @@
-import NavBar from "../NavBar/NavBar";
 import "./ContactForm.scss";
 
 import React, { useState } from "react";
 
-const NUMERO_DE_TELEFONO = "5493412115203";
+const NUMERO_DE_TELEFONO = "5493413263481";
 
 export const ContactForm = () => {
   const [userInfo, setUserInfo] = useState({});
