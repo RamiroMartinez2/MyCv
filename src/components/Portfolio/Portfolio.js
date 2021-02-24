@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import caldarImg from "../../images/caldarImg.PNG";
-import formImg from "../../images/formImg.PNG";
-import gifosImg from "../../images/gifosImg.PNG";
-import NavBar from "../NavBar/NavBar";
 import "./Portfolio.scss";
 import data from "../../data/data";
 
 const Portfolio = () => {
+
   const proyects = data?.proyects;
 
   const PortfolioCard = ({ id, name, skills, url, image, imgAlt }) => {
@@ -16,7 +13,10 @@ const Portfolio = () => {
       <div className="item-wrap">
         <Link to={`/portfolio/${id}`}>
           {" "}
-          <img src={image} className="img-caldar" alt={imgAlt} />
+          <div >
+             <img   src={image} className="img-caldar" alt={imgAlt} />
+          </div>
+         
         </Link>
       </div>
     );

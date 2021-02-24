@@ -27,7 +27,7 @@ const data = {
       name: "Ramiro's News",
       image: formImg,
       imgAlt: "Ramiro's News",
-      skills: ["HTML", "CSS/SASS", "JavaScritp"],
+      skills: ["HTML", "CSS/SASS", "JavaScript"],
       url: "https://ramiro-s-news.vercel.app/",
     },
     {
