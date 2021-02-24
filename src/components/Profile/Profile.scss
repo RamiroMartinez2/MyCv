@@ -74,6 +74,11 @@
     }
     @media (min-width: 1200px) {
       font-size: 50px;
+     &:hover{
+        font-size: 100px;
+        color: blue;
+      }
     }
+
   }
 }
