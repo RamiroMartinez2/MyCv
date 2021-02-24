@@ -28,7 +28,7 @@
   .item-wrap {
     grid-column: 2/3;
     .img-caldar {
-      width: 26rem;
+      width: 22rem;
       height: 18rem;
       margin-left: auto;
       margin-right: auto;
@@ -40,10 +40,10 @@
       }
       @keyframes imgRotation {
         from {
-          transform: rotate(0deg);
+          transform: scale(1);
         }
         to {
-          transform: rotate(359deg);
+          transform: scale(1.07);
         }
       }
     }

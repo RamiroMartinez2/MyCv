@@ -62,6 +62,7 @@
 .social {
   display: flex;
   justify-content: space-evenly;
+  height: 6rem;
   .social-list {
     position: relative;
     z-index: 10000000;
@@ -76,7 +77,7 @@
       font-size: 50px;
      &:hover{
         font-size: 100px;
-        color: blue;
+        color: grey;
       }
     }
 

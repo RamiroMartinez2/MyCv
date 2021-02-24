@@ -11,6 +11,13 @@ const Ul = styled.ul`
     padding: 18px 10px;
     color: white;
     text-decoration: none;
+    @media (min-width: 1200px) {
+       &:hover{
+      color: grey;
+    }
+    }
+   
+    
   }
 
   @media (max-width: 768px) {
@@ -25,10 +32,9 @@ const Ul = styled.ul`
     transition: all 0.3s ease;
     display: ${({ open }) => (open ? "flex" : "none")};
     z-index: 100;
-
-    .list {
-      color: white;
-    }
+   
+  }
+  
   }
 `;
 

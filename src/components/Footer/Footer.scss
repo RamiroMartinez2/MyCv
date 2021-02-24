@@ -14,13 +14,14 @@
         font-size: 31px;
         list-style: none;
         color: white;
+        height: 6rem;
         .footer-list{
             color: white;
             @media (min-width: 1200px) {
                 font-size: 50px;
                 &:hover{
                     font-size: 100px;
-                    color: blue;
+                    color: grey;
                   }
               }
 
