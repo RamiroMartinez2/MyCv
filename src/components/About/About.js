@@ -16,7 +16,7 @@ const About = () => {
           <img className="mobile" src={profilePicture} alt="profile-picture" />
           <p className="text-about top">{about}</p>
         </div>
-        <div className="container-headline">
+        <div className="container-headline top">
           <h2 className="about-headline">
             <strong>Contact Details</strong>
           </h2>
