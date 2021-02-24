@@ -10,8 +10,8 @@ const PortfolioDetail = () => {
 
   const { id } = useParams();
   const proyects = data?.proyects;
+
   const currentProyect = proyects[id-1];
-  console.log(currentProyect);
   const { name, skills, image, imgAlt, url} = currentProyect;
 
   return (
