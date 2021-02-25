@@ -21,6 +21,7 @@ const data = {
       imgAlt: "Caldar",
       skills: ["React JS", "Redux", "CSS/SASS"],
       url: "https://react-caldar.vercel.app/",
+      description: " Caldar Project with react js, redux, form and css deployed to heroku."
     },
     {
       id: 2,
@@ -28,7 +29,8 @@ const data = {
       image: formImg,
       imgAlt: "Ramiro's News",
       skills: ["HTML", "CSS/SASS", "JavaScript"],
-      url: "https://ramiro-s-news.vercel.app/",
+      url: "https://ramiro-s-news.vercel.app/subscription.html",
+      description: "Daily subscription form made with html css and vanilla javaScript"
     },
     {
       id: 3,
@@ -37,6 +39,7 @@ const data = {
       imgAlt: "Gifos image",
       skills: ["HTML", "CSS/SASS", "JavaScritp"],
       url: "https://proyecto-gifos-omega.vercel.app/index.html",
+      description: "Gifos search page made with html, css and vanilla javaScript"
     },
   ],
 
