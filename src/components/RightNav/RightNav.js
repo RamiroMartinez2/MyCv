@@ -15,8 +15,6 @@ const Ul = styled.ul`
       color: grey;
     }
     }
-   
-    
   }
 
   @media (max-width: 768px) {
@@ -25,15 +23,14 @@ const Ul = styled.ul`
     position: fixed;
     top: 0;
     right: 0;
-    height: 54vh;
-    width: 300px;
+    height: 49vh;
+    width: 221px;
     padding-top: 3.5rem;
     transition: all 0.3s ease;
     display: ${({ open }) => (open ? "flex" : "none")};
     z-index: 100;
    
   }
-  
   }
 `;
 
