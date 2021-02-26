@@ -47,6 +47,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2rem;
+    font: 25px/35px "librebaskerville-italic", serif;
     @media (min-width: 1200px) {
       grid-column: 2/4;
       margin-left: 0;
@@ -56,6 +57,7 @@
     }
   }
   .contact {
+    font: 25px/35px "librebaskerville-italic", serif;
     @media (min-width: 1200px) {
       grid-column: 2/3;
       margin-left: 0;

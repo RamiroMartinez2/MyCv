@@ -11,7 +11,7 @@ const NavBar = () => {
       <nav className="nav-bar">
        
           <Link   className="logo"  to="/">
-            CV
+           Resume
           </Link>
         <Burger/>
       </nav>

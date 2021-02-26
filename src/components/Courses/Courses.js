@@ -9,7 +9,7 @@ const Courses = () => {
       <h3 className="university">{i.name}</h3>
       <p class="info">
         {data.contact.profession}
-        <span>&bull;</span> <em class="date">{i.date}</em>
+        {" "}<span>&bull;</span><em class="date"> {i.date}</em>
       </p>
       <ul className="ulist-education">
         {i.skills.map((skill) => (
