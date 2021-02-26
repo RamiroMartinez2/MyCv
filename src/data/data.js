@@ -21,7 +21,7 @@ const data = {
       imgAlt: "Caldar",
       skills: ["React JS", "Redux", "CSS/SASS"],
       url: "https://react-caldar.vercel.app/",
-      description: "Project with react, redux, form, css and heroku (inside project put confirm)."
+      description: "Project with react, redux, form, css and heroku (inside project put confirm)"
     },
     {
       id: 2,
