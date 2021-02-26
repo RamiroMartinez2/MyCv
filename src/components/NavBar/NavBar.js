@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.scss";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Burger from "../Burger/Burger";
 
 const NavBar = () => {

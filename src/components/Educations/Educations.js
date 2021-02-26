@@ -1,6 +1,5 @@
 import React from "react";
 import Courses from "../Courses/Courses";
-import NavBar from "../NavBar/NavBar";
 import "./Educations.scss";
 
 const Educations = () => {

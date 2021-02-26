@@ -1,10 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Profile.scss";
-import backgroundImage from "../../images/background.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
-import { ImWhatsapp } from "react-icons/im";
+
 
 const Profile = () => {
   return (
