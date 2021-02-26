@@ -85,7 +85,7 @@ const data = {
     {
       company: "Edilizia SA Company",
       position: " Administrative Accounting ",
-      date: "August 2016 - February 2020",
+      date: "Aug 2016 - Feb 2020",
       duties: [
         "Generation of company availability reports.",
         "Preparation of the budget for the administrative sector.",
@@ -100,7 +100,7 @@ const data = {
     {
       company: "Accounting office Andreoli-Zarate",
       position: " Administrative Accounting ",
-      date: "March 2014 - May 2015",
+      date: "Mar 2014 - May 2015",
       duties: [
         "Tax settlements (IVA, IIBB, Earnings of Individuals and Personal Assets).",
         " Payment of salaries.",

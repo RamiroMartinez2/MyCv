@@ -8,10 +8,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .nav-skills {
-    width: 100%;
-    position: relative;
-  }
   .h1-skills {
     margin-bottom: 6rem;
     margin-top: 8rem;
@@ -28,6 +24,7 @@
     }
   }
 
+ 
   .bars li {
     position: relative;
     margin-bottom: 60px;
@@ -35,9 +32,12 @@
     height: 42px;
     border-radius: 3px;
     list-style: none;
-    width: 26rem;
+    width: 17rem;
     margin-right: 9%;
     margin-top: 1rem;
+    @media (min-width: 768px) {
+      width: 26rem;
+    }
     @media (min-width: 1200px) {
       margin-top: 3rem;
     }
@@ -108,5 +108,8 @@
       top: -36px;
       font-weight: bold;
     }
+  }
+  .skills{
+    padding: 0;
   }
 }
