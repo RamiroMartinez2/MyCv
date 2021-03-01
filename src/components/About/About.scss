@@ -17,9 +17,9 @@
   }
 
   .about-headline {
-    font: 22px/30px "opensans-bold", sans-serif;
+    font: 22px/30px 'Montserrat', sans-serif;;
     color: #fff;
-    margin-bottom: 12px;
+    
     @media (min-width: 1200px) {
       grid-column: 2/4;
     }
@@ -35,7 +35,7 @@
     display: none;
     @media (min-width: 1200px) {
       display: grid;
-      border-radius: 50%;
+      border-radius: 30%;
       width: 80%;
       margin-left: 10%;
     }
@@ -47,7 +47,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2rem;
-    font: 25px/35px "librebaskerville-italic", serif;
+    font: 25px/35px 'Roboto', sans-serif;;
     @media (min-width: 1200px) {
       grid-column: 2/4;
       margin-left: 0;
@@ -57,7 +57,7 @@
     }
   }
   .contact {
-    font: 25px/35px "librebaskerville-italic", serif;
+    font: 25px/35px 'Roboto', sans-serif;;
     @media (min-width: 1200px) {
       grid-column: 2/3;
       margin-left: 0;

@@ -11,6 +11,7 @@
   .h1-skills {
     margin-bottom: 6rem;
     margin-top: 8rem;
+    font-family: 'Montserrat', sans-serif;
     @media (min-width: 1200px) {
       grid-column: 1/1;
       margin-left: 10%;
@@ -99,7 +100,7 @@
       border-radius: 3px 0 0 3px;
     }
     em {
-      font: 15px "opensans-bold", sans-serif;
+      font: 15px 'Roboto', sans-serif;
       color: #313131;
       text-transform: uppercase;
       letter-spacing: 2px;

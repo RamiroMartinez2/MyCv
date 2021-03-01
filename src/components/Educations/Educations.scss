@@ -11,6 +11,7 @@
   }
   .h1-edu{
     margin-top: 4rem;
+    font-family: 'Montserrat', sans-serif;
      .education-headerline {
     border-bottom: 3px solid #11abb0;
     padding-bottom: 6px;
@@ -26,25 +27,25 @@
   }
  
   .university {
-    font: 20px/30px "opensans-bold", sans-serif;
+    font: 20px/30px 'Montserrat', sans-serif;
     color: #313131;
     margin-top: 6rem;
     @media (min-width: 1200px) {
       grid-column: 2/4;
       margin-top: 7rem;
-      font: 30px/40px "opensans-bold", sans-serif;
+      font: 30px/40px 'Montserrat', sans-serif;
     }
   }
   .info {
-    font: 16px/24px "librebaskerville-italic", serif;
+    font: 16px/24px 'Roboto', sans-serif;;
     color: #6e7881;
     @media (min-width: 1200px) {
       grid-column: 2/3;
-      font: 25px/35px "librebaskerville-italic", serif;
+      font: 25px/35px 'Roboto', sans-serif;;
     }
 
     .date {
-      font: 15px/24px "opensans-regular", sans-serif;
+      font: 15px/24px 'Roboto', sans-serif;;
     }
   }
 
@@ -57,7 +58,7 @@
     justify-content: center;
     flex-wrap: nowrap;
     align-self: flex-start;
-    font: 16px/24px "librebaskerville-italic", serif;
+    font: 16px/24px 'Roboto', sans-serif;
     color: #6e7881;
     list-style: square;
     margin-bottom: 4rem;
