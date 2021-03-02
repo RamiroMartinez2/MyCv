@@ -10,9 +10,9 @@ const Skills = () => {
         <div className="nav-skills">
           <NavBar />
         </div>
-        <h1 className="h1-skills">
+        <h2 className="h1-skills">
           <span  className="skills-headerline">Skills</span>
-        </h1>
+        </h2>
         <div class="bars">
           <ul class="skills">
             <li>

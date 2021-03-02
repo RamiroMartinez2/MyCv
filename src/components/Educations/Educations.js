@@ -6,9 +6,9 @@ const Educations = () => {
   return (
     <>
       <div id="education" class="education-container">
-        <h1 className="h1-edu">
+        <h2 className="h1-edu">
           <span className="education-headerline">Education</span>
-        </h1>
+        </h2>
         <h3 className="university">Universidad Abierta Interamericana</h3>
         <p className="info">
           Degree in accounting <span>&bull;</span>{" "}

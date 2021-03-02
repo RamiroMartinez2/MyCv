@@ -22,9 +22,9 @@ const Courses = () => {
   return (
     <>
       <div class="education-container">
-        <h1 className="h1-edu">
+        <h2 className="h1-edu">
           <span className="education-headerline">Courses</span>
-        </h1>
+        </h2>
         {currentCourses}
       </div>
     </>

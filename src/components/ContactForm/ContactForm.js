@@ -27,7 +27,7 @@ export const ContactForm = () => {
   return (
     <section id="contact" className="contact-form">
       <div className="flex-container">
-        <h1 className="h1-form">GET IN TOUCH</h1>
+        <h2 className="h1-form">GET IN TOUCH</h2>
         <form className="form" onSubmit={handleSubmit}>
           <label className="name">
             Name <span class="required">*</span>

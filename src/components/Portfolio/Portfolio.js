@@ -36,9 +36,9 @@ const Portfolio = () => {
   return (
     <>
       <div id="portfolio" className="portfolio-container">
-        <h1 className="h1-portfolio">
+        <h2 className="h1-portfolio">
           <span className="portfolio-headerline">Portfolio</span>
-        </h1>
+        </h2>
         {proyects.map((item) => (
           <PortfolioCard
             id={item.id}

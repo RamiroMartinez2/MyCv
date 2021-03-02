@@ -21,9 +21,9 @@ const Experiences = () => {
   return (
     <>
       <div id="experiences" class="education-container">
-        <h1 className="h1-edu">
+        <h2 className="h1-edu">
           <span className="education-headerline">Work</span>
-        </h1>
+        </h2>
         {oldWork}
       </div>
     </>
