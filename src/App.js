@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Experiences from "./components/Experiences/Experiences";
 import { ContactForm } from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
+import { Languages } from "./components/Languages/Languages";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/educations" component={Educations} />
           <Route exact path="/experiences" component={Experiences} />
           <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/languages" component={Languages} />
           <Route exact path="/contactForm" component={ContactForm} />
         </Switch>
         <Route exact path="/" component={Footer} />

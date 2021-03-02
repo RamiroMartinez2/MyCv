@@ -3,6 +3,7 @@ import About from "../About/About";
 import { ContactForm } from "../ContactForm/ContactForm";
 import Educations from "../Educations/Educations";
 import Experiences from "../Experiences/Experiences";
+import { Languages } from "../Languages/Languages";
 import NavBar from "../NavBar/NavBar";
 import Portfolio from "../Portfolio/Portfolio";
 import Profile from "../Profile/Profile";
@@ -18,6 +19,7 @@ const Home = () => {
       <Educations />
       <Skills />
       <Portfolio />
+      <Languages/>
       <Experiences />
       <ContactForm />
     </section>

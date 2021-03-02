@@ -3,6 +3,7 @@ import formImg from "../images/formImg.PNG";
 import gifosImg from "../images/gifosImg.PNG";
 
 const data = {
+
   contact: {
     name: "Ramiro Martinez",
     phone: "(+54) 9 3413-263-481",
@@ -127,6 +128,15 @@ const data = {
         " Accounting Registrations (IVA Purchases, IVA Sales, Salary Book andwages).",
       ],
     },
+  ],
+  languages:[
+{
+  title: "Languages",
+  english: "English",
+  level: "Advanced Intermediate.",
+  clases: "Currently taking classes at The Language MarketCompany."
+}
+
   ],
 
   footer: ["Copyright 2021", "Design by Ramiro Martinez"],

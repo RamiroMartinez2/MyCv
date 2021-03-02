@@ -23,7 +23,7 @@ const Ul = styled.ul`
     position: fixed;
     top: 0;
     right: 0;
-    height: 54vh;
+    height: 60vh;
     width: 221px;
     padding-top: 3.5rem;
     transition: all 0.3s ease;
@@ -59,6 +59,12 @@ const RightNav = ({ open }) => {
         <a className="list" href="#portfolio">
           {" "}
           Porfolio
+        </a>
+      </li>
+      <li className="list">
+        <a className="list" href="#languages">
+          {" "}
+         Languages
         </a>
       </li>
       <li className="list">
