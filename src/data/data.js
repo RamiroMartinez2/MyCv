@@ -45,8 +45,24 @@ const data = {
 
   courses: [
     {
-      id: 1,
+      name: "React JS CoderHouse",
+      profession: "Front end developer",
+      skills: [
+        "Components",
+        "Hooks",
+        "Promises, asynchrony and MAP",
+        "APIs",
+        "Routing",
+        "Events",
+        "Context",
+        "Rendering techniques",
+        "Firebase",
+      ],
+      date: " Feb 2021 - Currently  ",
+    },
+    {
       name: "Bootcamp Radium Rocket company",
+      profession: "Full Stack Developer",
       skills: [
         "HTML",
         "GIT",
@@ -65,6 +81,7 @@ const data = {
     },
     {
       name: "Acamica company",
+      profession: "Full Stack Developer",
       skills: [
         "HTML",
         "CSS",
@@ -80,6 +97,7 @@ const data = {
 
       date: " Apr 2020 - Nov 2020 ",
     },
+    
   ],
   experience: [
     {

@@ -37,7 +37,7 @@ export const ContactForm = () => {
             name="name"
             className="input"
             type="text"
-            placeholder="Nombre"
+            placeholder="Name"
             value={userInfo.name}
             onChange={(e) => handleChange(e)}
           />
@@ -65,7 +65,7 @@ export const ContactForm = () => {
             onChange={(e) => handleChange(e)}
           />
 
-          <button className="button" type="submit">Enviar</button>
+          <button className="button" type="submit">Submit</button>
         </form>
       </div>
     </section>
