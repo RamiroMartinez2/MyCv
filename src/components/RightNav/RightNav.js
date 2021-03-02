@@ -23,7 +23,7 @@ const Ul = styled.ul`
     position: fixed;
     top: 0;
     right: 0;
-    height: 60vh;
+    height: 56vh;
     width: 221px;
     padding-top: 3.5rem;
     transition: all 0.3s ease;
