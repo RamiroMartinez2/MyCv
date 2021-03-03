@@ -1,11 +1,13 @@
 .ulist-education{
-    margin-right: 11rem;
+    width: 100%;
     list-style: square;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
     color: #838C95;
+    text-align: initial;
+    margin-left: 10%;
     @media (min-width: 1200px) {
         grid-column: 2/3;
        }
