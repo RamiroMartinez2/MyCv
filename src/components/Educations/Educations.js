@@ -11,6 +11,10 @@ const Educations = () => {
         </h2>
         <h3 className="university">Universidad Abierta Interamericana</h3>
         <p className="info">
+          Programmer analyst
+          <span>&bull; </span> <em className="date">March 2021 - currently</em>
+        </p>
+        <p className="info">
           Degree in accounting <span>&bull;</span>{" "}
           <em className="date">May 2017</em>
         </p>

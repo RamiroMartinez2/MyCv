@@ -3,7 +3,7 @@ import formImg from "../images/formImg.PNG";
 import gifosImg from "../images/gifosImg.PNG";
 
 const data = {
-
+  
   contact: {
     name: "Ramiro Martinez",
     phone: "(+54) 9 3413-263-481",
@@ -22,7 +22,8 @@ const data = {
       imgAlt: "Caldar",
       skills: ["React JS", "Redux", "CSS/SASS"],
       url: "https://react-caldar.vercel.app/",
-      description: "Project with react, redux, form, css and heroku (inside project put confirm)"
+      description:
+        "Project with react, redux, form, css and heroku (inside project put confirm)",
     },
     {
       id: 2,
@@ -31,7 +32,8 @@ const data = {
       imgAlt: "Ramiro's News",
       skills: ["HTML", "CSS/SASS", "JavaScript"],
       url: "https://ramiro-s-news.vercel.app/subscription.html",
-      description: "Daily subscription form made with html css and vanilla javaScript"
+      description:
+        "Daily subscription form made with html css and vanilla javaScript",
     },
     {
       id: 3,
@@ -40,7 +42,8 @@ const data = {
       imgAlt: "Gifos image",
       skills: ["HTML", "CSS/SASS", "JavaScritp"],
       url: "https://proyecto-gifos-omega.vercel.app/index.html",
-      description: "Gifos search page made with html, css and vanilla javaScript"
+      description:
+        "Gifos search page made with html, css and vanilla javaScript",
     },
   ],
 
@@ -98,7 +101,6 @@ const data = {
 
       date: " Apr 2020 - Nov 2020 ",
     },
-    
   ],
   experience: [
     {
@@ -129,14 +131,13 @@ const data = {
       ],
     },
   ],
-  languages:[
-{
-  title: "Languages",
-  english: "English",
-  level: "Advanced Intermediate.",
-  clases: "Currently taking classes at The Language MarketCompany."
-}
-
+  languages: [
+    {
+      title: "Languages",
+      english: "English",
+      level: "Advanced Intermediate.",
+      clases: "Currently taking classes at The Language MarketCompany.",
+    },
   ],
 
   footer: ["Copyright 2021", "Design by Ramiro Martinez"],
