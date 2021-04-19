@@ -4,7 +4,7 @@ import profilePicture from "../../images/RamirosPhoto.jpeg";
 import data from "../../data/data";
 
 const About = () => {
-  const { about, name, place, email, phone } = data?.contact;
+  const { about, name, email, phone } = data?.contact;
 
   return (
     <>
@@ -22,8 +22,6 @@ const About = () => {
           </h2>
           <p className="text-about contact">
             <span>{name}</span>
-            <br></br>
-            <span>{place}</span>
             <br></br>
             <span>{phone}</span>
             <br></br>
