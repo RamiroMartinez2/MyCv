@@ -11,7 +11,7 @@ const Profile = () => {
         <div className="banner-text">
           <h1 className="headline">I'm Ramiro Martinez.</h1>
           <h3 className="text">
-            Full Stack Developer..<span>&#160;</span>
+          Front End Developer..<span>&#160;</span>
           </h3>
         </div>
         <ul className="social">
