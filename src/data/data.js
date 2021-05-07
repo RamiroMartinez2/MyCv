@@ -9,7 +9,7 @@ const data = {
     phone: "(+54) 9 3413-263-481",
     place: "Rosario, Santa Fe, CP 2000 Argentina",
     email: "ramiro.martinez91@hotmail.com",
-    profession: "Full Stack Developer",
+    profession: "Front End Developer",
     about:
       "I am a results oriented web developer with excellent communication skills. My goal is to have the opportunity to be part of a company that allows me to develop personally and professionally.",
   },
