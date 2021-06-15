@@ -54,16 +54,20 @@
       width: 75%;
       animation: css 2s ease;
     }
-    .js {
+    .chakra {
       width: 75%;
+      animation: css 2s ease;
+    }
+    .js {
+      width: 80%;
       animation: js 2s ease;
     }
     .react {
-      width: 50%;
+      width: 80%;
       animation: react 2s ease;
     }
     .redux {
-      width: 30%;
+      width: 50%;
       animation: redux 2s ease;
     }
     .node {
@@ -79,7 +83,7 @@
       animation: redux 2s ease;
     }
     .mongo {
-      width: 60%;
+      width: 65%;
       animation: redux 2s ease;
     }
     .mysql {

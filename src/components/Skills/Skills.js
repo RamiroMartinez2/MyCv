@@ -11,7 +11,7 @@ const Skills = () => {
           <NavBar />
         </div>
         <h2 className="h1-skills">
-          <span  className="skills-headerline">Skills</span>
+          <span className="skills-headerline">Skills</span>
         </h2>
         <div class="bars">
           <ul class="skills">
@@ -24,14 +24,21 @@ const Skills = () => {
               <span class="bar-expand git"></span>
               <em>Git</em>
             </li>
-
+            <li>
+              <span class="bar-expand react"></span>
+              <em>React JS</em>
+            </li>
+            <li>
+              <span class="bar-expand js"></span>
+              <em>JavaScript</em>
+            </li>
             <li>
               <span class="bar-expand css"></span>
               <em>CSS/SASS</em>
             </li>
             <li>
-              <span class="bar-expand js"></span>
-              <em>JavaScript</em>
+              <span class="bar-expand chakra"></span>
+              <em>Chakra</em>
             </li>
             <li>
               <span class="bar-expand node"></span>
@@ -45,12 +52,9 @@ const Skills = () => {
               <span class="bar-expand postman"></span>
               <em>Postman</em>
             </li>
+
             <li>
               <span class="bar-expand mongo"></span>
-              <em>React JS</em>
-            </li>
-            <li>
-              <span class="bar-expand react"></span>
               <em>MongoDB</em>
             </li>
             <li>
