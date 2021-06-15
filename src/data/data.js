@@ -3,7 +3,6 @@ import formImg from "../images/formImg.PNG";
 import gifosImg from "../images/gifosImg.PNG";
 
 const data = {
-  
   contact: {
     name: "Ramiro Martinez",
     phone: "(+54) 9 3413-263-481",
@@ -49,6 +48,18 @@ const data = {
 
   courses: [
     {
+      name: "Aceleration Alkemy",
+      profession: "Front end developer",
+      skills: [
+        "NGO project Somos mas / Teamwork",
+        "React js",
+        "Chakra",
+        "Git",
+        "Jira",
+      ],
+      date: " May 2021 - Currently  ",
+    },
+    {
       name: "React JS CoderHouse",
       profession: "Front end developer",
       skills: [
@@ -62,7 +73,7 @@ const data = {
         "Rendering techniques",
         "Firebase",
       ],
-      date: " Feb 2021 - Currently  ",
+      date: " Feb 2021 - Apr 2021  ",
     },
     {
       name: "Bootcamp Radium Rocket company",
