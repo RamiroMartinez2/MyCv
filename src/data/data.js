@@ -1,6 +1,10 @@
 import caldarImg from "../images/caldarImg.PNG";
 import formImg from "../images/formImg.PNG";
 import gifosImg from "../images/gifosImg.PNG";
+import superHero from "../images/superHero.JPG";
+
+import post from "../images/addPost.JPG";
+import snake from "../images/snake.JPG";
 
 const data = {
   contact: {
@@ -23,6 +27,9 @@ const data = {
       url: "https://react-caldar.vercel.app/",
       description:
         "Project with react, redux, form, css and heroku (inside project put confirm)",
+      credential: "Credentials:",
+      user: "User: challenge@alkemy.org",
+      password: "Password: react",
     },
     {
       id: 2,
@@ -33,6 +40,9 @@ const data = {
       url: "https://ramiro-s-news.vercel.app/subscription.html",
       description:
         "Daily subscription form made with html css and vanilla javaScript",
+      credential: "Credentials:",
+      user: "User: challenge@alkemy.org",
+      password: "Password: react",
     },
     {
       id: 3,
@@ -43,6 +53,39 @@ const data = {
       url: "https://proyecto-gifos-omega.vercel.app/index.html",
       description:
         "Gifos search page made with html, css and vanilla javaScript",
+      credential: "Credentials:",
+      user: "User: challenge@alkemy.org",
+      password: "Password: react",
+    },
+    {
+      id: 4,
+      name: "Superhero search",
+      image: superHero,
+      imgAlt: "SuperHero image",
+      skills: ["React js", "SASS"],
+      url: "https://superhero-challenge.netlify.app/",
+      description:
+        "Created with React js and SASS. You can search for your favorite superheroes and villains. Credentials: (Email: challenge@alkemy.org / Password: react )",
+    },
+    {
+      id: 5,
+      name: "Add post",
+      image: post,
+      imgAlt: "Post add image",
+      skills: ["React js", "Bootstrap"],
+      url: "https://add-post.netlify.app/",
+      description:
+        " Created with React js and Bootsapp. You can add/edit/delete posts. Credentials: (Email: challenge@alkemy.org / Password: react )",
+    },
+    {
+      id: 5,
+      name: "Snake game",
+      image: snake,
+      imgAlt: "snake image",
+      skills: ["HTML", "Javascript"],
+      url: "https://snake-game-2.netlify.app/",
+      description:
+        "Created with html y javascript. You can play a little. Enjoy",
     },
   ],
 

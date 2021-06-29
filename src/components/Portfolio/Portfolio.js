@@ -4,6 +4,7 @@ import data from "../../data/data";
 
 const Portfolio = () => {
   const proyects = data?.proyects;
+  console.log({ proyects });
 
   const PortfolioCard = ({
     id,

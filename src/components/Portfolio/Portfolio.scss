@@ -19,7 +19,9 @@
     @media (min-width: 1200px) {
       grid-column: 1/1;
       margin-left: 10%;
-      margin-bottom: 32rem;
+      margin-bottom: 58rem;
+      grid-row-start: 1;
+      grid-row-end: 3;
     }
     .portfolio-headerline {
       border-bottom: 3px solid #11abb0;
@@ -29,7 +31,6 @@
   }
   .item-wrap {
     width: 300px;
-    height: 500px;
     box-shadow: 5px 10px 20px 1px rgb(0 0 0 / 25%);
     margin-top: 4rem;
     overflow: hidden;
@@ -62,6 +63,7 @@
       margin-left: 1rem;
       text-decoration: none;
       color: grey;
+      height: 7rem;
     }
     .container-button {
       display: block;
