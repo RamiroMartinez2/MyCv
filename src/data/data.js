@@ -100,7 +100,7 @@ const data = {
         "Git",
         "Jira",
       ],
-      date: " May 2021 - Currently  ",
+      date: " May 2021 - July 2021   ",
     },
     {
       name: "React JS CoderHouse",
